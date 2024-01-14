@@ -1,0 +1,2 @@
+Discussion on the issue reguarding the keycloak windows problem:
+https://github.com/keycloak/keycloak/issues/21625
