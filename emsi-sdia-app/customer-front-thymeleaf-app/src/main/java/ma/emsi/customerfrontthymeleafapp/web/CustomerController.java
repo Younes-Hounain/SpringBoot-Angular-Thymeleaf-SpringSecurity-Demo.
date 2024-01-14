@@ -15,10 +15,17 @@ public class CustomerController {
     public CustomerController(CustomerRepository customerRepository) {
         this.customerRepository = customerRepository;
     }
+
     @GetMapping(path = "/customers")
     public String customers(Model model){
         List<Customer> customerList = customerRepository.findAll();
         model.addAttribute("customers", customerList);
         return "customers";
     }
+
+    @GetMapping(path = "/products")
+    public String products(Model model){
+        return "products";
+    }
+
 }
