@@ -1,4 +1,4 @@
 Discussion on the issue reguarding the keycloak windows problem:
 https://github.com/keycloak/keycloak/issues/21625
 
-And to fix it, running the .sh script in a Git Bash was one of the solutions.
+And to fix it, running the kc.sh script in a Git Bash was one of the solutions.
