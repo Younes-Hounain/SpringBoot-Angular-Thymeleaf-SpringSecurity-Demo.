@@ -41,6 +41,8 @@ public class SecurityConfig {
                         .permitAll()
                         .clearAuthentication(true)
                         .deleteCookies("JSESSIONID"))
+                .exceptionHandling(eh -> eh
+                        .accessDeniedPage("/notAuthorized"))
                 .build();
     }
 

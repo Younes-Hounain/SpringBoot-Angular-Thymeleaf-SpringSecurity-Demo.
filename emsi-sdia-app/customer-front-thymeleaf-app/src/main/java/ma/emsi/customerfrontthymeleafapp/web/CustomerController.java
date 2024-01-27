@@ -40,5 +40,9 @@ public class CustomerController {
     public String index() {
         return "index";
     }
+    @GetMapping(path = "/notAuthorized")
+    public String notAuthorized() {
+        return "notAuthorized";
+    }
 
 }
